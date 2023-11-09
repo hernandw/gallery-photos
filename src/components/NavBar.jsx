@@ -5,10 +5,10 @@ const NavBar = () => {
   return (
     <nav className="bg-success p-4 d-flex justify-content-center gap-4">
       <NavLink to="/" className="text-light text-decoration-none">
-        Home
+        Home 
       </NavLink>
       <NavLink to="/favourites" className="text-light text-decoration-none">
-        Favourites
+        Favoritos
       </NavLink>
     </nav>
   );
