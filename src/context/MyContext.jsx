@@ -29,7 +29,7 @@ const getPhotos = async() => {
     }, [])
 
     return (
-        <MyContext.Provider value={{photos}}>
+        <MyContext.Provider value={{photos, setPhotos}}>
             {children}
         </MyContext.Provider>
     )
